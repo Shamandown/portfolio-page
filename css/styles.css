@@ -1,0 +1,49 @@
+/* color pallete
+    #53DD6C Malachite
+    #F72585 Flickr Pink
+    #56638A Dark Blue Grey
+    #483A58 English Violet
+    #4CC9F0 Vivid sky blue
+*/
+
+/* Global Styles
+----------------------------------------------- */
+body{
+    color: #53338a;
+}
+img{
+    width: 300px;
+}
+
+/* Profile
+----------------------------------------------- */
+header {
+    background-color: #483A58;
+    color: #F72585;
+}
+
+/* Projects
+----------------------------------------------- */
+.projects{
+    background-color: #53DD6C;
+}
+
+/* Work Experience
+----------------------------------------------- */
+.exp{
+    background-color: #4CC9F0;
+}
+
+/* Education
+----------------------------------------------- */
+.brains{
+
+}
+
+/* Contact info
+----------------------------------------------- */
+footer{
+    background-color: #483A58;
+    color: #F72585;
+}
+a

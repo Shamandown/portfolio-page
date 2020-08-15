@@ -10,6 +10,8 @@
 ----------------------------------------------- */
 body{
     color: #53338a;
+    margin: 0;
+    padding: 0;
 }
 img{
     width: 300px;
@@ -19,6 +21,14 @@ a {
 }
 a:hover{
     text-decoration: none;
+}
+h2 {
+    margin:0;
+}
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
 }
 
 /* Profile
@@ -42,6 +52,7 @@ header {
     text-decoration: none;
     padding: 7px;
     border-radius: 6px;
+    display: inline-block;
 }
 .projects .butt:hover{
     background: rgba(86,99,138, .8);

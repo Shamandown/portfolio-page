@@ -8,6 +8,13 @@
 
 /* Global Styles
 ----------------------------------------------- */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body{
     color: #53338a;
     margin: 0;

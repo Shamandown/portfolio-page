@@ -13,6 +13,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Playfair Display', serif;
+    Font-size: 18px;
+    line-height: 1.25;
 }
 img{
     width: 300px;
@@ -23,11 +25,20 @@ a {
 a:hover{
     text-decoration: none;
 }
-h2 {
-    margin:0;
+h1 {
+    font-size: 3.25em;
 }
-h1, h2{
+h2 {
+    Font-size: 2em;
+}
+h3 {
+    font-size: 1.75em;
+    font-style: italic;
+}
+h1, h2, h3{
     font-family: 'Expletus Sans', cursive;
+    font-weight: 400px;
+    margin: 10px;
 }
 .content-wrap{
     width: 80%;
@@ -60,6 +71,19 @@ header {
 }
 .projects .butt:hover{
     background: rgba(86,99,138, .8);
+}
+@font-face{
+    font-family: CogNode;
+    src: url(../fonts/Cognode3.ttf),
+        url(../fonts/Cognode3.otf),
+        url(../fonts/cognode3.woff),
+        url(../fonts/cognode3.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+#snippet{
+    font-family: CogNode, fantasy;
+    font-size: 2em;
 }
 
 /* Work Experience

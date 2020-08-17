@@ -12,6 +12,7 @@ body{
     color: #53338a;
     margin: 0;
     padding: 0;
+    font-family: 'Playfair Display', serif;
 }
 img{
     width: 300px;
@@ -24,6 +25,9 @@ a:hover{
 }
 h2 {
     margin:0;
+}
+h1, h2{
+    font-family: 'Expletus Sans', cursive;
 }
 .content-wrap{
     width: 800px;

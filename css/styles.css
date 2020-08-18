@@ -92,6 +92,18 @@ header {
     font-family: CogNode, fantasy;
     font-size: 2em;
 }
+.project-item{
+    overflow: hidden;
+    border-bottom: 2px dotted #483A58;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin: 20px;
+}
+.project-item h3{
+    margin-top: 0;
+}
 
 /* Work Experience
 ----------------------------------------------- */

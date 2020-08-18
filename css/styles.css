@@ -136,6 +136,7 @@ footer{
     display: inline-block;
     background: #4CC9F0;
     border-radius: 6px;
+    margin: 6px;
 }
 .contact-item a {
     text-decoration: none;

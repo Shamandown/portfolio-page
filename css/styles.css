@@ -75,7 +75,6 @@ border-bottom: none;
 header {
     background-color: #483A58;
     color: #F72585;
-    text-align: center;
 }
 
 /* Projects
@@ -113,10 +112,6 @@ header {
 .project-item{
     overflow: hidden;
 }
-.project-item img {
-    float: left;
-    margin: 20px;
-}
 /*.project-item h3{
     margin-top: 0;
 }*/
@@ -125,11 +120,6 @@ header {
 ----------------------------------------------- */
 .exp{
     background-color: #4CC9F0;
-}
-.job-item{
-    display:grid;
-    grid-template-columns: 1fr 2fr;
-    Column-gap: 20px;
 }
 
 /* Education
@@ -152,7 +142,6 @@ header {
 footer{
     background-color: #483A58;
     color: #F72585;
-    text-align: center;
 }
 .contact-list{
     list-style-type: none;
@@ -174,8 +163,34 @@ footer{
 .contact-item:hover{
     background: rgba(76, 201, 240, .8);
 }
-    
-    
+    /* Responsive
+----------------------------------------------- */
+@media screen and (min-width: 750px) {
+    header, footer {
+        text-align: center;
+    }
+    .project-item img {
+        float: left;
+        margin: 20px;
+    }
+    .job-item{
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+        Column-gap: 20px;
+    }
+}
+    @media screen and (max-width: 749px) {
+        h1 {
+            font-size: 2em;
+        }
+        h2 {
+            Font-size: 1.5em;
+        }
+        h3 {
+            font-size: 1.12em;
+            font-style: italic;
+        }
+}
     
    
     

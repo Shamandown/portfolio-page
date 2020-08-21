@@ -146,12 +146,10 @@ footer{
 .contact-list{
     list-style-type: none;
     padding: 0;
-    display: flex;
-    justify-content: center;
 }
 .contact-item {
     padding: 7px;
-    display: inline-block;
+    display: block;
     background: #4CC9F0;
     border-radius: 6px;
     margin: 6px;
@@ -178,6 +176,10 @@ footer{
         grid-template-columns: 1fr 2fr;
         Column-gap: 20px;
     }
+    .contact-list{
+        display: flex;
+        justify-content: center;
+    }
 }
     @media screen and (max-width: 749px) {
         h1 {
@@ -189,6 +191,9 @@ footer{
         h3 {
             font-size: 1.12em;
             font-style: italic;
+        }
+        .project-item img{
+            width: 80vw;
         }
 }
     
